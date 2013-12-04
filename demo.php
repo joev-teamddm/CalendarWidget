@@ -20,12 +20,11 @@ foreach($events as $event){
 //You do need to use classes 'calendar-widget', 'previous-month', 'current-month', and 'next-month' for the js 
 //to work properly but their exact html markup is up to you, provided 'calendar-widget' contains the other classes.
 ?>
-
 <div class="calendar-widget">
 	<div class="header">
-        <span class="previous-month"></span>
-        <span class="current-month"></span>
-        <span class="next-month"></span>
-    </div>
+		<span class="previous-month"></span>
+		<span class="current-month"></span>
+		<span class="next-month"></span>
+	</div>
 	<?php $calendar->render(); ?>
 </div>
