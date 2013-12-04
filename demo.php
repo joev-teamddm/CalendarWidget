@@ -17,7 +17,8 @@ foreach($events as $event){
 //In your view:
 
 //Be sure to include CalendarWidget.js
-//You do need to use classes 'calendar-widget', 'previous-month', 'current-month', and 'next-month' for the js to //work properly but their exact html markup is up to you, provided 'calendar-widget' contains the other classes.
+//You do need to use classes 'calendar-widget', 'previous-month', 'current-month', and 'next-month' for the js 
+//to work properly but their exact html markup is up to you, provided 'calendar-widget' contains the other classes.
 ?>
 
 <div class="calendar-widget">
